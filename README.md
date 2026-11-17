@@ -3,6 +3,7 @@ This project simulates a Full Self Driving (FSD) car travelling from ALU Rwanda 
 I implemented the 10 logic functions in road_simulation.py. A web page (index.html) shows the car driving, and transit_program.py and engine.py run the simulation using my functions. An optional Bash script, analyze_log.sh, summarises the session log.
 
 Project structure
+
 lab1_<pacifiquem-dev>/
 ├── road_simulation.py   
 ├── transit_program.py   
