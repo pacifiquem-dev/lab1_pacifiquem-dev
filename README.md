@@ -5,6 +5,7 @@ I implemented the 10 logic functions in road_simulation.py. A web page (index.ht
 Project structure
 
 lab1_<pacifiquem-dev>/
+
 ├── road_simulation.py   
 ├── transit_program.py   
 ├── engine.py            
@@ -12,6 +13,7 @@ lab1_<pacifiquem-dev>/
 ├── analyze_log.sh       
 └── Readme.md
 How to run
+
 Open a terminal in the project folder.
 Run python road_simulation.py (or python3 road_simulation.py).
 Enter a driver name, then use the road editor menu.
