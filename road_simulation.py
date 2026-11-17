@@ -44,7 +44,7 @@ def get_sign_type(sign):
         return "bus"
     if sign == "zebra":
         return "zebra"
-    if sign.isdecimal() and 20 <= int(sign) <= 100:
+    if isinstance(sign, str) and sign.isdecimal():
         return "speed"
     return "road"
 
@@ -104,12 +104,12 @@ def ask_for_number(question, low, high):
     while True:
         try:
             number = int(input(question))
-            if low <= number <= high:
-                return number
-            else:
-                print(f"  Not allowed! Use a number from {low} to {high}.")
         except ValueError:
-            print(f"  Not allowed! Use a number from {low} to {high}.")
+            print(f"  Invalid input! Enter a whole number, e.g. {low}.")
+            continue
+        if low <= number <= high:
+            return number
+        print(f"  Out of range! Enter a number from {low} to {high}.")
 
 
 # TODO 8: Insert sign at position. Return False if position is not from 0 to len(road_list).
