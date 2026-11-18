@@ -1,3 +1,5 @@
+Lab 1: FSD, but on Kigali Roads
+
 Author: Pacifique MICO
 
 This project simulates a Full Self Driving (FSD) car travelling from ALU Rwanda to the Kigali Convention Centre. The road is a Python list called road, where each item is one 100 m segment: a speed limit sign ("60", "80"), a "zebra" crossing, a "bus" (the car changes lane), or plain "road".
