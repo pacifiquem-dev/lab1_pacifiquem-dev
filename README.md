@@ -1,3 +1,5 @@
+Author: Pacifique MICO
+
 This project simulates a Full Self Driving (FSD) car travelling from ALU Rwanda to the Kigali Convention Centre. The road is a Python list called road, where each item is one 100 m segment: a speed limit sign ("60", "80"), a "zebra" crossing, a "bus" (the car changes lane), or plain "road".
 
 I implemented the 10 logic functions in road_simulation.py. A web page (index.html) shows the car driving, and transit_program.py and engine.py run the simulation using my functions. An optional Bash script, analyze_log.sh, summarises the session log.
