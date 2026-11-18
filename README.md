@@ -14,6 +14,7 @@ lab1_pacifiquem-dev/
 ├── index.html           
 ├── analyze_log.sh       
 └── Readme.md
+
 How to run
 
 Open a terminal in the project folder.
