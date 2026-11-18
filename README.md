@@ -6,7 +6,7 @@ I implemented the 10 logic functions in road_simulation.py. A web page (index.ht
 
 Project structure
 
-lab1_<pacifiquem-dev>/
+lab1_pacifiquem-dev/
 
 ├── road_simulation.py   
 ├── transit_program.py   
@@ -33,4 +33,8 @@ the number of zebra crossing stops
 the number of lane changes
 the driver name and top speed of the latest completed trip
 
-If the file does not exist, it prints an error and exits with code 1.
+If the file does not exist, it prints an error and exits with code 1.If no trip has finished yet, the driver and top speed show N/A
+
+Testing
+
+I tested the program by running the full simulation after completing the functions. In the road editor I tried valid signs, invalid signs (e.g. abc), non-numeric input and out-of-range numbers, and I added and inserted signs and checked the road with option 4. I then drove the whole road with option 5, watching the speed, lane changes and zebra stops on the web page and checking the trip report printed at the end. I also ran analyze_log.sh and compared its counts with transit_session.log.
